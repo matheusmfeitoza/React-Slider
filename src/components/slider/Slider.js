@@ -8,15 +8,17 @@ const Slider = (props) => {
 
   React.useEffect(() => {
     const { width } = refPosition.current.getBoundingClientRect();
-    setPosition(ativo * width);
+    setPosition(-(ativo * width));
   }, [ativo]);
 
   function slidePrev() {
-    console.log("here");
+    //   todo: Fix slider when i stay on positon 0, its accepts -1... need fix
+    setAtivo(ativo - 1);
   }
 
   function slideNext() {
-    console.log("here");
+    //   todo: Fix slider when i stay on final position, its accepts ++.. need fix
+    setAtivo(ativo + 1);
   }
   return (
     <section>
