@@ -14,6 +14,18 @@ function App() {
       id: 3,
       texto: "Slider 3",
     },
+    {
+      id: 4,
+      texto: "Slider 4",
+    },
+    {
+      id: 5,
+      texto: "Slider 5",
+    },
+    {
+      id: 6,
+      texto: "Slider 6",
+    },
   ];
 
   return (
