@@ -6,6 +6,7 @@
   justify-content: space-between;
   margin: 10px 0;
   gap: 20px;
+  transition: transform 0.3s ease;
 }
 .item {
   flex-shrink: 0;
