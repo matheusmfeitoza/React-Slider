@@ -1,2 +1,33 @@
 .container {
+  overflow: hidden;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  gap: 20px;
+}
+.item {
+  flex-shrink: 0;
+  background-color: #eee;
+  width: 80%;
+  margin: 0 10%;
+  padding: 10rem 0;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.button {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 10%;
+}
+.button button {
+  padding: 10px;
+  border: none;
+  background-color: aqua;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
 }
