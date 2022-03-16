@@ -12,13 +12,15 @@ const Slider = (props) => {
   }, [ativo]);
 
   function slidePrev() {
-    //   todo: Fix slider when i stay on positon 0, its accepts -1... need fix
-    setAtivo(ativo - 1);
+    if (ativo > 0) {
+      setAtivo(ativo - 1);
+    }
   }
 
   function slideNext() {
-    //   todo: Fix slider when i stay on final position, its accepts ++.. need fix
-    setAtivo(ativo + 1);
+    if (ativo < props.sliders.length - 1) {
+      setAtivo(ativo + 1);
+    }
   }
   return (
     <section>
