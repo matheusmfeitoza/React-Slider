@@ -55,7 +55,7 @@ const Slider = (props) => {
         <p className={styles.sociais_item}>
           Github:{" "}
           <a
-            href="https://www.linkedin.com/in/matheus-marinho-4a1885149/"
+            href="https://github.com/matheusmfeitoza"
             target={"_blank"}
             rel="noreferrer"
           >
