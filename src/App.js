@@ -4,7 +4,7 @@ function App() {
   const sliders = [
     {
       id: 1,
-      texto: "Motivos que eu seja o seu próximo DEV FrontEnd Junior",
+      texto: "Motivos para que eu seja o seu próximo DEV FrontEnd Junior",
     },
     {
       id: 2,
