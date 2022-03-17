@@ -41,6 +41,26 @@ const Slider = (props) => {
           <button onClick={slideNext}>Next</button>
         </nav>
       </div>
+      <div className={styles.sociais}>
+        <p className={styles.sociais_item}>
+          Linkedin:{" "}
+          <a
+            href="https://www.linkedin.com/in/matheus-marinho-4a1885149/"
+            target={"_blank"}
+          >
+            Matheus Marinho
+          </a>
+        </p>
+        <p className={styles.sociais_item}>
+          Github:{" "}
+          <a
+            href="https://www.linkedin.com/in/matheus-marinho-4a1885149/"
+            target={"_blank"}
+          >
+            matheusmfeitoza
+          </a>
+        </p>
+      </div>
     </section>
   );
 };

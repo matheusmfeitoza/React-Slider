@@ -32,3 +32,11 @@
   cursor: pointer;
   margin: 1rem auto;
 }
+
+.sociais {
+  text-align: center;
+  font-size: 1.3rem;
+}
+.sociais_item a {
+  text-decoration: none;
+}
