@@ -47,7 +47,7 @@ const Slider = (props) => {
           <a
             href="https://www.linkedin.com/in/matheus-marinho-4a1885149/"
             target={"_blank"}
-            rel="noopener"
+            rel="noreferrer"
           >
             Matheus Marinho
           </a>
@@ -57,7 +57,7 @@ const Slider = (props) => {
           <a
             href="https://www.linkedin.com/in/matheus-marinho-4a1885149/"
             target={"_blank"}
-            rel="noopener"
+            rel="noreferrer"
           >
             matheusmfeitoza
           </a>
